@@ -1,4 +1,4 @@
-import { MdKeyboardArrowUp } from "react-icons/md";
+import { MdKeyboardArrowUp,MdKeyboardArrowDown } from "react-icons/md";
 import SubMenu from "../SubMenu";
 import { subMenu } from "../../types/subMenu.type";
 
@@ -12,13 +12,9 @@ interface ItemCardProps {
 
 const ItemCard:React.FC<ItemCardProps> = ({cardTitle,cardId,isClickedProp,menuProp,onComplete}): JSX.Element => {
 
-  return <div className="w-4/5 lg:w-3/4 group transition-all cursor-pointer duration-300 border-b-2 border-b-black" onClick={()=>{
-    
-  console.log('card Id: ' , cardId)  
-  console.log('is Clicked: ' , isClickedProp)
-  onComplete(cardId)
+  return <div className="w-4/5 lg:w-3/4 group transition-all cursor-pointer duration-300 border-b-2 border-b-black" 
+  onClick={()=>{ onComplete(cardId)}}>
 
-  }}>
         <div className="cardHeader flex justify-between py-3 px-2">
             
             <div className="cardTitleWrapper text-white bg-black rounded-sm py-1 px-6 font-iranyekan text-lg sm:text-xl lg:text-2xl">
@@ -26,7 +22,7 @@ const ItemCard:React.FC<ItemCardProps> = ({cardTitle,cardId,isClickedProp,menuPr
             </div>
 
             <div className="arrowIconWrapper font-bold text-xl sm:text-2xl lg:text-3xl flex items-end">
-                <p className={`arrowIcon transition-all duration-200 rotate-180 ${isClickedProp === cardId && 'rotate-0'}`}> <MdKeyboardArrowUp /> </p>    
+                <p className={`arrowIcon transition-all duration-200 ${isClickedProp === cardId && 'rotate-180'}`}> <MdKeyboardArrowDown /> </p>    
             </div>
 
         </div>
