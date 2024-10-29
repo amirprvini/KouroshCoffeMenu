@@ -1,4 +1,4 @@
-import { MdKeyboardArrowUp,MdKeyboardArrowDown } from "react-icons/md";
+import {MdKeyboardArrowDown } from "react-icons/md";
 import SubMenu from "../SubMenu";
 import { subMenu } from "../../types/subMenu.type";
 
