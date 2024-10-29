@@ -26,7 +26,7 @@ const ItemCard:React.FC<ItemCardProps> = ({cardTitle,cardId,isClickedProp,menuPr
             </div>
 
             <div className="arrowIconWrapper font-bold text-xl sm:text-2xl lg:text-3xl flex items-end">
-                <p className={`arrowIcon rotate-180 ${isClickedProp === cardId && 'rotate-0'}`}> <MdKeyboardArrowUp /> </p>    
+                <p className={`arrowIcon transition-all duration-200 rotate-180 ${isClickedProp === cardId && 'rotate-0'}`}> <MdKeyboardArrowUp /> </p>    
             </div>
 
         </div>
