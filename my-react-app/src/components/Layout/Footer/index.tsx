@@ -16,7 +16,7 @@ const Footer: React.FC = (): JSX.Element => {
             <h3 className="phoneTitle">1-1-110</h3>
         </div>
 
-        <h2 className="madeBy font-dana text-lg sm:text-xl lg:text-2xl">طراحی و اجرا توسط امیر پروینی</h2>
+        {/* <h2 className="madeBy font-dana text-lg sm:text-xl lg:text-2xl">طراحی و اجرا توسط امیر پروینی</h2> */}
     </div>
 
   </div>

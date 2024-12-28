@@ -8,37 +8,37 @@ export const menuData: CardType[] = [
             {
                 title : 'اسپرسو' , 
                 recipe : '' ,
-                price : '65000' , 
+                price : '70000', 
                 isLast : false
             },
             {
                 title : 'آمریکانو' , 
                 recipe : '' ,
-                price : '75000',
+                price : '80000',
                 isLast : false
             },
             {
                 title : 'لاته' , 
                 recipe : '' ,
-                price : '95000',
+                price : '115000',
                 isLast : false
             },
             {
                 title : 'کاپوچینو' , 
                 recipe : '' ,
-                price : '95000',
+                price : '105000',
                 isLast : false
             },
             {
                 title : 'موکا' , 
                 recipe : '' ,
-                price : '105000',
+                price : '115000',
                 isLast : false
             },
             {
                 title : 'کارامل ماکیاتو' , 
                 recipe : '' ,
-                price : '105000',
+                price : '125000',
                 isLast : true
             },
         ]
@@ -52,31 +52,31 @@ export const menuData: CardType[] = [
             {
                 title : 'آیس آمریکانو' , 
                 recipe : '' ,
-                price : '95000',
+                price : '105000',
                 isLast : false
             },
             {
                 title : 'آیس لاته' , 
                 recipe : '' ,
-                price : '105000',
+                price : '125000',
                 isLast : false
             },
             {
                 title : 'آیس موکا' , 
                 recipe : '' ,
-                price : '115000',
+                price : '135000',
                 isLast : false
             },
             {
                 title : 'آیس کارامل' , 
                 recipe : '' ,
-                price : '115000',
+                price : '135000',
                 isLast : false
             },
             {
                 title : 'آفوگاتو' , 
                 recipe : '' ,
-                price : '135000',
+                price : '155000',
                 isLast : true
             },
         ]
@@ -90,13 +90,13 @@ export const menuData: CardType[] = [
             {
                 title : 'سیب دارچین' , 
                 recipe : '' ,
-                price : '70000',
+                price : '90000',
                 isLast : false
             },
             {
                 title : 'چای لاته' , 
                 recipe : '' ,
-                price : '95000',
+                price : '115000',
                 isLast : false
             },
             {
@@ -108,7 +108,13 @@ export const menuData: CardType[] = [
             {
                 title : 'هات چاکلت' , 
                 recipe : '' ,
-                price : '98000',
+                price : '105000',
+                isLast : false
+            },
+            {
+                title : 'وایت چاکلت' , 
+                recipe : '' ,
+                price : '105000',
                 isLast : false
             },
             {
@@ -120,13 +126,25 @@ export const menuData: CardType[] = [
             {
                 title : 'آرامش' , 
                 recipe : '' ,
-                price : '75000',
+                price : '85000',
+                isLast : false
+            },
+            {
+                title : 'آویشن' , 
+                recipe : '' ,
+                price : '85000',
+                isLast : false
+            },
+            {
+                title : 'مراکشی' , 
+                recipe : '' ,
+                price : '85000',
                 isLast : false
             },
             {
                 title : 'چای دمی' , 
                 recipe : '' ,
-                price : '50000',
+                price : '55000',
                 isLast : true
             },
         ]
@@ -139,31 +157,31 @@ export const menuData: CardType[] = [
             {
                 title : 'وانیل' , 
                 recipe : '' ,
-                price : '85000',
+                price : '98000',
                 isLast : false
             },
             {
                 title : 'شکلات' , 
                 recipe : '' ,
-                price : '98000',
+                price : '115000',
                 isLast : false
             },
             {
                 title : 'موزشکلات' , 
                 recipe : '' ,
-                price : '109000',
+                price : '135000',
                 isLast : false
             },
             {
                 title : 'اسپرسو' , 
                 recipe : '' ,
-                price : '109000',
+                price : '115000',
                 isLast : false
             },
             {
                 title : 'بادام زمینی' , 
                 recipe : '' ,
-                price : '125000',
+                price : '145000',
                 isLast : false
             },
             {
@@ -182,7 +200,7 @@ export const menuData: CardType[] = [
             {
                 title : 'انواع آبمیوه طبیعی' , 
                 recipe : '' ,
-                price : '125000',
+                price : '135000',
                 isLast : true
             },
         ]
@@ -196,7 +214,7 @@ export const menuData: CardType[] = [
             {
                 title : 'نیمرو با هات داگ' , 
                 recipe : '' ,
-                price : '105000',
+                price : '115000',
                 isLast : false
             },
             {
@@ -208,7 +226,7 @@ export const menuData: CardType[] = [
             {
                 title : 'صبحانه ایرانی' , 
                 recipe : '' ,
-                price : '105000',
+                price : '95000',
                 isLast : false
             },
             {
@@ -266,13 +284,13 @@ export const menuData: CardType[] = [
             {
                 title : 'مخلوط' , 
                 recipe : '' ,
-                price : '225000',
+                price : '240000',
                 isLast : false
             },
             {
                 title : 'پپرونی' , 
                 recipe : '' ,
-                price : '255000',
+                price : '235000',
                 isLast : false
             },
             {
@@ -284,7 +302,7 @@ export const menuData: CardType[] = [
             {
                 title : 'رست بیف' , 
                 recipe : '' ,
-                price : '325000',
+                price : '295000',
                 isLast : true
             },
 
@@ -310,7 +328,7 @@ export const menuData: CardType[] = [
             {
                 title : 'سالاد سزار' , 
                 recipe : '' ,
-                price : '155000',
+                price : '185000',
                 isLast : false
             },
             {
@@ -322,14 +340,77 @@ export const menuData: CardType[] = [
             {
                 title : 'سیب زمینی پنیر دیپ' , 
                 recipe : '' ,
-                price : '145000',
+                price : '135000',
                 isLast : false
             },
             {
                 title : 'سیب سوسیس' , 
                 recipe : '' ,
-                price : '145000',
+                price : '135000',
                 isLast : true
+            },
+        ]
+    },
+
+    {
+        title : 'غذای ایرانی' ,
+        id: 10 ,
+        menu : [
+            {
+                title : 'خوراک جوجه بدون استخون' , 
+                recipe : '' ,
+                price : '145000',
+                isLast : false
+            },
+            {
+                title : 'خوراک کباب کوبیده' , 
+                recipe : '' ,
+                price : '175000',
+                isLast : false
+            },
+            {
+                title : 'چلو جوجه کباب' , 
+                recipe : '' ,
+                price : '198000',
+                isLast : false
+            },
+            {
+                title : 'چلو کباب کوبیده' , 
+                recipe : '' ,
+                price : '215000',
+                isLast : false
+            },
+        
+        ]
+    },
+
+        {
+        title : 'ورزشی' ,
+        id: 11 ,
+        menu : [
+            {
+                title : 'شیک پروتئین وی موز و کره بادام زمینی' , 
+                recipe : '' ,
+                price : '175000',
+                isLast : false
+            },
+            {
+                title : 'شیک پروتئین وی شکلاتی با شیر بادام' , 
+                recipe : '' ,
+                price : '155000',
+                isLast : false
+            },
+            {
+                title : 'شیک پروتئین وی خرما و دارچین' , 
+                recipe : '' ,
+                price : '165000',
+                isLast : false
+            },
+            {
+                title : 'شیک پروتئین وی با قهوه سرد دم (Cold Brew)' , 
+                recipe : '' ,
+                price : '175000',
+                isLast : false
             },
         ]
     },
